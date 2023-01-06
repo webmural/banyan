@@ -25,9 +25,7 @@ nav {
 
 :focus {
   text-decoration-style: wavy;
-  outline-style: groove;
-  outline-width: thick;
-  outline-color: #777;
+  outline: thick groove blueviolet;
 }
 
 .dim {
@@ -42,8 +40,8 @@ nav {
 
 @media (prefers-color-scheme: dark) {
   .reflect {
-    background: aquamarine;
-    color: seashell;
+    background: #111;
+    color: aquamarine;
   }
 
   .absorb {
